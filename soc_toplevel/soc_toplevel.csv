@@ -1,0 +1,88 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: P:\chip_design\apple_chipset_modular\soc_toplevel\soc_toplevel.csv
+# Generated on: Sun Nov 26 12:41:43 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+clk_50m_i,Input,PIN_M9,3B,B3B_N0,PIN_M9,2.5 V,,,,,,,,,,,,,
+clk_126m_o,Output,PIN_G18,7A,B7A_N0,PIN_G18,2.5 V,,,,,,,,,,,,,
+dma_busy_o,Output,PIN_T8,3A,B3A_N0,PIN_T8,2.5 V,,,,,,,,,,,,,
+i_pll_locked,Output,PIN_M7,3A,B3A_N0,PIN_M7,2.5 V,,,,,,,,,,,,,
+memory_busy_o,Output,PIN_R5,3A,B3A_N0,PIN_R5,2.5 V,,,,,,,,,,,,,
+refresh_busy_o,Output,PIN_N6,3A,B3A_N0,PIN_N6,2.5 V,,,,,,,,,,,,,
+reset_i,Input,PIN_J17,7A,B7A_N0,PIN_J17,2.5 V,,,,,,,,,,,,,
+rxd_line,Input,PIN_AB5,3B,B3B_N0,PIN_AB5,2.5 V,,,,,,,,,,,,,
+sdAddr_o[0],Output,PIN_M18,5B,B5B_N0,PIN_M18,2.5 V,,,,,,,,,,,,,
+sdAddr_o[1],Output,PIN_M20,5B,B5B_N0,PIN_M20,2.5 V,,,,,,,,,,,,,
+sdAddr_o[2],Output,PIN_M16,5B,B5B_N0,PIN_M16,2.5 V,,,,,,,,,,,,,
+sdAddr_o[3],Output,PIN_L17,5B,B5B_N0,PIN_L17,2.5 V,,,,,,,,,,,,,
+sdAddr_o[4],Output,PIN_L19,5B,B5B_N0,PIN_L19,2.5 V,,,,,,,,,,,,,
+sdAddr_o[5],Output,PIN_L18,5B,B5B_N0,PIN_L18,2.5 V,,,,,,,,,,,,,
+sdAddr_o[6],Output,PIN_K16,7A,B7A_N0,PIN_K16,2.5 V,,,,,,,,,,,,,
+sdAddr_o[7],Output,PIN_K17,5B,B5B_N0,PIN_K17,2.5 V,,,,,,,,,,,,,
+sdAddr_o[8],Output,PIN_J18,7A,B7A_N0,PIN_J18,2.5 V,,,,,,,,,,,,,
+sdAddr_o[9],Output,PIN_J19,7A,B7A_N0,PIN_J19,2.5 V,,,,,,,,,,,,,
+sdAddr_o[10],Output,PIN_N19,5B,B5B_N0,PIN_N19,2.5 V,,,,,,,,,,,,,
+sdAddr_o[11],Output,PIN_H18,7A,B7A_N0,PIN_H18,2.5 V,,,,,,,,,,,,,
+sdAddr_o[12],Output,PIN_H20,7A,B7A_N0,PIN_H20,2.5 V,,,,,,,,,,,,,
+sdBs_o[0],Output,PIN_P19,5A,B5A_N0,PIN_P19,2.5 V,,,,,,,,,,,,,
+sdBs_o[1],Output,PIN_P18,5A,B5A_N0,PIN_P18,2.5 V,,,,,,,,,,,,,
+sdCas_bo,Output,PIN_T19,5A,B5A_N0,PIN_T19,2.5 V,,,,,,,,,,,,,
+sdCe_bo,Output,PIN_P17,5A,B5A_N0,PIN_P17,2.5 V,,,,,,,,,,,,,
+sdCke_o,Output,PIN_G17,7A,B7A_N0,PIN_G17,2.5 V,,,,,,,,,,,,,
+sdData0_io[0],Bidir,PIN_AA22,4A,B4A_N0,PIN_AA22,2.5 V,,,,,,,,,,,,,
+sdData0_io[1],Bidir,PIN_AB22,4A,B4A_N0,PIN_AB22,2.5 V,,,,,,,,,,,,,
+sdData0_io[2],Bidir,PIN_Y22,4A,B4A_N0,PIN_Y22,2.5 V,,,,,,,,,,,,,
+sdData0_io[3],Bidir,PIN_Y21,4A,B4A_N0,PIN_Y21,2.5 V,,,,,,,,,,,,,
+sdData0_io[4],Bidir,PIN_W22,4A,B4A_N0,PIN_W22,2.5 V,,,,,,,,,,,,,
+sdData0_io[5],Bidir,PIN_W21,4A,B4A_N0,PIN_W21,2.5 V,,,,,,,,,,,,,
+sdData0_io[6],Bidir,PIN_V21,4A,B4A_N0,PIN_V21,2.5 V,,,,,,,,,,,,,
+sdData0_io[7],Bidir,PIN_U22,4A,B4A_N0,PIN_U22,2.5 V,,,,,,,,,,,,,
+sdData0_io[8],Bidir,PIN_M21,5B,B5B_N0,PIN_M21,2.5 V,,,,,,,,,,,,,
+sdData0_io[9],Bidir,PIN_M22,5B,B5B_N0,PIN_M22,2.5 V,,,,,,,,,,,,,
+sdData0_io[10],Bidir,PIN_T22,5A,B5A_N0,PIN_T22,2.5 V,,,,,,,,,,,,,
+sdData0_io[11],Bidir,PIN_R21,5A,B5A_N0,PIN_R21,2.5 V,,,,,,,,,,,,,
+sdData0_io[12],Bidir,PIN_R22,5A,B5A_N0,PIN_R22,2.5 V,,,,,,,,,,,,,
+sdData0_io[13],Bidir,PIN_P22,5A,B5A_N0,PIN_P22,2.5 V,,,,,,,,,,,,,
+sdData0_io[14],Bidir,PIN_N20,5B,B5B_N0,PIN_N20,2.5 V,,,,,,,,,,,,,
+sdData0_io[15],Bidir,PIN_N21,5B,B5B_N0,PIN_N21,2.5 V,,,,,,,,,,,,,
+sdData1_io[0],Bidir,PIN_K22,5B,B5B_N0,PIN_K22,2.5 V,,,,,,,,,,,,,
+sdData1_io[1],Bidir,PIN_K21,5B,B5B_N0,PIN_K21,2.5 V,,,,,,,,,,,,,
+sdData1_io[2],Bidir,PIN_J22,7A,B7A_N0,PIN_J22,2.5 V,,,,,,,,,,,,,
+sdData1_io[3],Bidir,PIN_J21,7A,B7A_N0,PIN_J21,2.5 V,,,,,,,,,,,,,
+sdData1_io[4],Bidir,PIN_H21,7A,B7A_N0,PIN_H21,2.5 V,,,,,,,,,,,,,
+sdData1_io[5],Bidir,PIN_G22,7A,B7A_N0,PIN_G22,2.5 V,,,,,,,,,,,,,
+sdData1_io[6],Bidir,PIN_G21,7A,B7A_N0,PIN_G21,2.5 V,,,,,,,,,,,,,
+sdData1_io[7],Bidir,PIN_F22,7A,B7A_N0,PIN_F22,2.5 V,,,,,,,,,,,,,
+sdData1_io[8],Bidir,PIN_E22,7A,B7A_N0,PIN_E22,2.5 V,,,,,,,,,,,,,
+sdData1_io[9],Bidir,PIN_E20,7A,B7A_N0,PIN_E20,2.5 V,,,,,,,,,,,,,
+sdData1_io[10],Bidir,PIN_D22,7A,B7A_N0,PIN_D22,2.5 V,,,,,,,,,,,,,
+sdData1_io[11],Bidir,PIN_D21,7A,B7A_N0,PIN_D21,2.5 V,,,,,,,,,,,,,
+sdData1_io[12],Bidir,PIN_C21,7A,B7A_N0,PIN_C21,2.5 V,,,,,,,,,,,,,
+sdData1_io[13],Bidir,PIN_B22,7A,B7A_N0,PIN_B22,2.5 V,,,,,,,,,,,,,
+sdData1_io[14],Bidir,PIN_A22,7A,B7A_N0,PIN_A22,2.5 V,,,,,,,,,,,,,
+sdData1_io[15],Bidir,PIN_B21,7A,B7A_N0,PIN_B21,2.5 V,,,,,,,,,,,,,
+sdDqmh0_o,Output,PIN_L22,5B,B5B_N0,PIN_L22,2.5 V,,,,,,,,,,,,,
+sdDqmh1_o,Output,PIN_E21,7A,B7A_N0,PIN_E21,2.5 V,,,,,,,,,,,,,
+sdDqml0_o,Output,PIN_U21,4A,B4A_N0,PIN_U21,2.5 V,,,,,,,,,,,,,
+sdDqml1_o,Output,PIN_K20,7A,B7A_N0,PIN_K20,2.5 V,,,,,,,,,,,,,
+sdRas_bo,Output,PIN_P16,5A,B5A_N0,PIN_P16,2.5 V,,,,,,,,,,,,,
+sdWe_bo,Output,PIN_U20,4A,B4A_N0,PIN_U20,2.5 V,,,,,,,,,,,,,
+sdram_ready_o,Output,PIN_N8,3B,B3B_N0,PIN_N8,2.5 V,,,,,,,,,,,,,
+txd_line,Output,PIN_AB7,3B,B3B_N0,PIN_AB7,2.5 V,,,,,,,,,,,,,

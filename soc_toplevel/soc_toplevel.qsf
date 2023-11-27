@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 19:05:07  November 18, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		soc_toplevel_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CEFA5F23I7
+set_global_assignment -name TOP_LEVEL_ENTITY soc_toplevel
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:05:07  NOVEMBER 18, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
+set_location_assignment PIN_M9 -to clk_50m_i
+set_location_assignment PIN_M7 -to i_pll_locked
+set_location_assignment PIN_J17 -to reset_i
+set_location_assignment PIN_AB5 -to rxd_line
+set_location_assignment PIN_M18 -to sdAddr_o[0]
+set_location_assignment PIN_M20 -to sdAddr_o[1]
+set_location_assignment PIN_M16 -to sdAddr_o[2]
+set_location_assignment PIN_L17 -to sdAddr_o[3]
+set_location_assignment PIN_L19 -to sdAddr_o[4]
+set_location_assignment PIN_L18 -to sdAddr_o[5]
+set_location_assignment PIN_K16 -to sdAddr_o[6]
+set_location_assignment PIN_K17 -to sdAddr_o[7]
+set_location_assignment PIN_J18 -to sdAddr_o[8]
+set_location_assignment PIN_J19 -to sdAddr_o[9]
+set_location_assignment PIN_N19 -to sdAddr_o[10]
+set_location_assignment PIN_H18 -to sdAddr_o[11]
+set_location_assignment PIN_H20 -to sdAddr_o[12]
+set_location_assignment PIN_P19 -to sdBs_o[0]
+set_location_assignment PIN_P18 -to sdBs_o[1]
+set_location_assignment PIN_T19 -to sdCas_bo
+set_location_assignment PIN_P17 -to sdCe_bo
+set_location_assignment PIN_G17 -to sdCke_o
+set_location_assignment PIN_AA22 -to sdData0_io[0]
+set_location_assignment PIN_AB22 -to sdData0_io[1]
+set_location_assignment PIN_Y22 -to sdData0_io[2]
+set_location_assignment PIN_Y21 -to sdData0_io[3]
+set_location_assignment PIN_W22 -to sdData0_io[4]
+set_location_assignment PIN_W21 -to sdData0_io[5]
+set_location_assignment PIN_V21 -to sdData0_io[6]
+set_location_assignment PIN_U22 -to sdData0_io[7]
+set_location_assignment PIN_M21 -to sdData0_io[8]
+set_location_assignment PIN_M22 -to sdData0_io[9]
+set_location_assignment PIN_T22 -to sdData0_io[10]
+set_location_assignment PIN_R21 -to sdData0_io[11]
+set_location_assignment PIN_R22 -to sdData0_io[12]
+set_location_assignment PIN_P22 -to sdData0_io[13]
+set_location_assignment PIN_N20 -to sdData0_io[14]
+set_location_assignment PIN_N21 -to sdData0_io[15]
+set_location_assignment PIN_K22 -to sdData1_io[0]
+set_location_assignment PIN_K21 -to sdData1_io[1]
+set_location_assignment PIN_J22 -to sdData1_io[2]
+set_location_assignment PIN_J21 -to sdData1_io[3]
+set_location_assignment PIN_H21 -to sdData1_io[4]
+set_location_assignment PIN_G22 -to sdData1_io[5]
+set_location_assignment PIN_G21 -to sdData1_io[6]
+set_location_assignment PIN_F22 -to sdData1_io[7]
+set_location_assignment PIN_E22 -to sdData1_io[8]
+set_location_assignment PIN_E20 -to sdData1_io[9]
+set_location_assignment PIN_D22 -to sdData1_io[10]
+set_location_assignment PIN_D21 -to sdData1_io[11]
+set_location_assignment PIN_C21 -to sdData1_io[12]
+set_location_assignment PIN_B22 -to sdData1_io[13]
+set_location_assignment PIN_A22 -to sdData1_io[14]
+set_location_assignment PIN_B21 -to sdData1_io[15]
+set_location_assignment PIN_L22 -to sdDqmh0_o
+set_location_assignment PIN_E21 -to sdDqmh1_o
+set_location_assignment PIN_U21 -to sdDqml0_o
+set_location_assignment PIN_K20 -to sdDqml1_o
+set_location_assignment PIN_P16 -to sdRas_bo
+set_location_assignment PIN_U20 -to sdWe_bo
+set_location_assignment PIN_AB7 -to txd_line
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G18 -to clk_126m_o
+set_global_assignment -name VHDL_FILE ../memory_development/sdram_interface.vhd
+set_global_assignment -name VHDL_FILE soc_toplevel.vhd
+set_global_assignment -name VHDL_FILE ../memory_development/sdram_module.vhd
+set_global_assignment -name VHDL_FILE ../usart_scheduler/usart_dma.vhd
+set_global_assignment -name VHDL_FILE ../usart_block/usart_tx_module.vhd
+set_global_assignment -name VHDL_FILE ../usart_block/usart_rx_module.vhd
+set_global_assignment -name QIP_FILE pll_control.qip
+set_global_assignment -name SIP_FILE pll_control.sip
+set_location_assignment PIN_N8 -to sdram_ready_o
+set_location_assignment PIN_T8 -to dma_busy_o
+set_location_assignment PIN_N6 -to refresh_busy_o
+set_location_assignment PIN_R5 -to memory_busy_o
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
